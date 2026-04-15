@@ -36,4 +36,4 @@
 - 读出数据与写入数据一致
 
 ## 仿真波形
-![波形图](Async FIFO.png)
+![波形图](Async_FIFO.png)
