@@ -1,6 +1,6 @@
 module Asy_FIFO
       #(parameter width=16,
-        parameter depth=16
+        parameter depth=8
        )(
        input reset_n,
        input wr_CLK,
