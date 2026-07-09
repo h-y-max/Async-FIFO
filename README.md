@@ -3,7 +3,7 @@
 ## 功能
 - 跨时钟域数据传输
 - 写时钟域 wr_CLK，读时钟域 rd_CLK
-- 深度：8，位宽：16
+- 深度：16，位宽：16
 - 提供满标志 full 和空标志 empty
 
 ## 设计要点
@@ -26,8 +26,8 @@
 - empty：输出，空标志
 
 ## 文件说明
-- p_fifo.v：异步FIFO设计代码
-- p_fifo_tb.v：仿真testbench
+- Asy_FIFO.v：异步FIFO设计代码
+- Asy_FIFO_tb.v：仿真testbench
 
 ## 仿真验证
 - 写时钟 50MHz，读时钟 33.3MHz
