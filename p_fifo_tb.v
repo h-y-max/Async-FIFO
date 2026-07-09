@@ -46,3 +46,4 @@ always #10 wr_CLK<=~wr_CLK;
 always #15 rd_CLK<=~rd_CLK;
 endmodule
       
+
